@@ -72,9 +72,4 @@ cilium install
 cilium status --wait
 cilium connectivity test
 
-########Installer
-curl -o installer https://sysdig-tools-us-east-1.s3.us-east-1.amazonaws.com/installer/5.1.9-1/installer-linux-amd64?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT7FT7OLYMFDOJD56%2F20230621%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230621T093718Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=93e15a487bcc1b77e36cca462daed9677a80cd7ff47a9cc6dcf718cb0f7334e0'
-chmod u+x installer
-cp ./installer /usr/bin/
-
 
